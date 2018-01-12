@@ -20,14 +20,14 @@ This is the command line interface which supports managing a kratos node and sen
 The proxy is responsible for accepting requests for managing a node and a processing/relay commands.
 The Proxy provides a REST API with Swagger Docs with the following:
 
-Authentication
- User name and password
- Permanent API key
+* Authentication
+* User name and password
+* Permanent API key
 
-API Endpoints
+* API Endpoints
 
- All CRUD operations for kratos_c2_proxy/models.py
- Command processor API endpoint (POST)
+* All CRUD operations for kratos_c2_proxy/models.py
+* Command processor API endpoint (POST)
 
 http://[hostname]/kratosc2/api/v1.0/
 
