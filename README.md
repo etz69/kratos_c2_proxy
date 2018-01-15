@@ -1,4 +1,4 @@
-# Kratos-c2
+# Kratos-c2-proxy
 
 ```
  | |/ /_ __ __ _| |_ ___  ___        ___|___ \ 
@@ -9,13 +9,10 @@
 
 ```
 
-Kratos-C2 is comprised of three main components
-
 Kratos-C2 Proxy
 ---
 The proxy is responsible for accepting requests for managing a node and a processing/relay commands.
 The Proxy provides a REST API with Swagger Docs with the following:
-
 * Authentication
 * User name and password
 * Permanent API key
