@@ -11,11 +11,7 @@
 
 Kratos-C2 is comprised of three main components
 
-1.Kratos CLI
----
-This is the command line interface which supports managing a kratos node and sending C2 commands from comamndline
-
-2.Kratos-C2 Proxy
+Kratos-C2 Proxy
 ---
 The proxy is responsible for accepting requests for managing a node and a processing/relay commands.
 The Proxy provides a REST API with Swagger Docs with the following:
@@ -32,11 +28,3 @@ The Proxy provides a REST API with Swagger Docs with the following:
 http://[hostname]/kratosc2/api/v1.0/
 
 http://[hostname]/kratosc2/api/v1.0/MODEL_NAME
-
-
-
-3.Kratos-C2 Orchestrator
----
-
-The orchestrator is responsible for loading profiles and managing submitted commands supporting
-both synchronous and async jobs.
