@@ -25,3 +25,26 @@ The Proxy provides a REST API with Swagger Docs with the following:
 http://[hostname]/kratosc2/api/v1.0/
 
 http://[hostname]/kratosc2/api/v1.0/MODEL_NAME
+
+Kratos-c2 architecture (Open C2 concept)
+----
+```
+C2 Client ------> C2 Proxy (Interface to C2 Master/Relay)
+                       |        Setup node
+                       |        Get Capabilities
+                       |        Setup actuators
+                       |        Setup capabilities
+                       |
+                       |
+                    C2 Master <----->C2 Relay         (Orchestrator)Open C2 Capabilities/Sig Match
+                                    |                   Dispatch cmds, load profiles
+                                    |
+                                    |
+                                    |Control
+                                    |
+                                 Mitigation System Manager (orchestrator)
+                                    |
+                                    |
+                                    |
+                                 Actuators/Sensors
+```                                 
